@@ -43,7 +43,7 @@ print (boas_vindas + operacoes)
 def create():
 
     # é solicitado o nome do arquivo que será criado
-    your_txt = str(input("Insira aqui o nome do seu novo arquivo: ") + ".txt")
+    your_txt = input("Insira aqui o nome do seu novo arquivo: ") + ".txt"
     txt = Path(your_txt)
 
     # é verificado se esse arquivo tem um nome válido
@@ -72,7 +72,7 @@ def create():
 def fill():
 
     # é solicitado o nome do arquivo que será editado
-    your_txt = str(input("Insira aqui o nome do seu arquivo: ") + ".txt")
+    your_txt = input("Insira aqui o nome do seu arquivo: ") + ".txt"
     txt = Path(your_txt)
 
     # é verificado se esse arquivo tem um nome válido
@@ -116,7 +116,7 @@ def fill():
 def read():
 
     # é solicitado o nome do arquivo que será lido
-    your_txt = str(input("Insira aqui o nome do seu arquivo: ") + ".txt")
+    your_txt = input("Insira aqui o nome do seu arquivo: ") + ".txt"
     txt = Path(your_txt)
 
     # é verificado se esse arquivo tem um nome válido
@@ -164,7 +164,7 @@ def read():
 def delete():
 
     # é solicitado o nome do arquivo que será criado
-    your_txt = str(input("Insira aqui o nome do seu arquivo: ") + ".txt")
+    your_txt = input("Insira aqui o nome do seu arquivo: ") + ".txt"
     txt = Path(your_txt)
 
     # é verificado se esse arquivo tem um nome válido
@@ -200,7 +200,7 @@ def delete():
 def sn():
 
     # essa pergunta e feita ao usuário
-    cond = str(input("Você deseja mesmo apagar esse arquivo? (s/n) "))
+    cond = input("Você deseja mesmo apagar esse arquivo? (s/n) ")
 
     # se o usuário diz que sim
     if cond.lower() == "s":
